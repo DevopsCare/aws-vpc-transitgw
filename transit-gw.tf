@@ -1,6 +1,5 @@
-
 /*
-*Copyright (c) 2020 Risk Focus Inc.
+* Copyright (c) 2020 Risk Focus Inc.
 *
 * Licensed under the Apache License, Version 2.0 (the "License");
 * you may not use this file except in compliance with the License.
@@ -14,7 +13,6 @@
 * See the License for the specific language governing permissions and
 * limitations under the License.
 */
-
 
 resource "aws_ec2_transit_gateway_vpc_attachment" "eks-vpc" {
   subnet_ids         = data.aws_subnet_ids.private.ids
